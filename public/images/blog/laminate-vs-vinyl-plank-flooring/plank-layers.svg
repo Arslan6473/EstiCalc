@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Laminate and vinyl plank layers compared</title>
+  <desc id="d">Laminate: clear wear layer, printed decor layer, high-density fibreboard core that can swell with water, and a balancing backer. Rigid-core vinyl plank: clear wear layer measured in mil, printed vinyl film, waterproof SPC or WPC core, and an optional attached pad.</desc>
+  <rect width="800" height="400" fill="#ffffff"/>
+  <text x="200" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Laminate</text>
+  <text x="600" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Rigid-core vinyl plank</text>
+  <!-- laminate stack -->
+  <rect x="40" y="70" width="320" height="16" fill="#e0f2fe" stroke="#0f172a" stroke-width="1.5"/>
+  <rect x="40" y="86" width="320" height="18" fill="#d6a76c" stroke="#0f172a" stroke-width="1.5"/>
+  <rect x="40" y="104" width="320" height="120" fill="#c8a27a" stroke="#0f172a" stroke-width="1.5"/>
+  <rect x="40" y="224" width="320" height="14" fill="#94a3b8" stroke="#0f172a" stroke-width="1.5"/>
+  <g font-size="16" fill="#0f172a">
+    <text x="40" y="270">1. Wear layer — hard, clear top coat</text>
+    <text x="40" y="294">2. Printed decor layer (wood image)</text>
+    <text x="40" y="318">3. HDF core — <tspan fill="#b45309" font-weight="700">can swell if wet</tspan></text>
+    <text x="40" y="342">4. Balancing backer</text>
+    <text x="40" y="374" fill="#0f766e" font-weight="700">Rated by AC class (AC1–AC5)</text>
+  </g>
+  <!-- vinyl stack -->
+  <rect x="440" y="70" width="320" height="16" fill="#e0f2fe" stroke="#0f172a" stroke-width="1.5"/>
+  <rect x="440" y="86" width="320" height="12" fill="#d6a76c" stroke="#0f172a" stroke-width="1.5"/>
+  <rect x="440" y="98" width="320" height="96" fill="#cbd5e1" stroke="#0f172a" stroke-width="1.5"/>
+  <rect x="440" y="194" width="320" height="22" fill="#99f6e4" stroke="#0f172a" stroke-width="1.5"/>
+  <g font-size="16" fill="#0f172a">
+    <text x="440" y="270">1. Wear layer — thickness in mil</text>
+    <text x="440" y="294">2. Printed vinyl film</text>
+    <text x="440" y="318">3. SPC or WPC core — <tspan fill="#0f766e" font-weight="700">waterproof</tspan></text>
+    <text x="440" y="342">4. Attached pad (on many products)</text>
+    <text x="440" y="374" fill="#0f766e" font-weight="700">Rated by wear layer (e.g. 12 or 20 mil)</text>
+  </g>
+  <line x1="400" y1="60" x2="400" y2="380" stroke="#e2e8f0" stroke-width="2"/>
+</svg>

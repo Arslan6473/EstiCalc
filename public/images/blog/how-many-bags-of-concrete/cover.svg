@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#57534e"/><stop offset="1" stop-color="#292524"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#fff" stroke-opacity=".07" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="960" cy="315" r="250" fill="#fff" fill-opacity=".08"/>
+  <g transform="translate(780 135)">
+    <g fill="#ffffff" opacity=".95">
+      <rect x="40" y="70" width="130" height="50" rx="4"/><rect x="178" y="70" width="130" height="50" rx="4"/>
+      <rect x="40" y="128" width="62" height="50" rx="4"/><rect x="110" y="128" width="130" height="50" rx="4"/><rect x="248" y="128" width="60" height="50" rx="4"/>
+      <rect x="40" y="186" width="130" height="50" rx="4"/><rect x="178" y="186" width="130" height="50" rx="4"/>
+    </g>
+    <rect x="30" y="250" width="300" height="60" rx="6" fill="#a8a29e"/>
+    <circle cx="80" cy="280" r="6" fill="#78716c"/><circle cx="160" cy="270" r="4" fill="#78716c"/><circle cx="250" cy="288" r="5" fill="#78716c"/>
+    <path d="M200 240l60-50 30 30" stroke="#fbbf24" stroke-width="10" stroke-linecap="round" fill="none"/></g>
+  <rect x="72" y="70" width="274" height="44" rx="22" fill="#fff" fill-opacity=".15"/>
+  <text x="92" y="99" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">CONCRETE &amp; MASONRY</text>
+  <text fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800"><tspan x="72" y="267">How Many Bags of</tspan><tspan x="72" y="335">Concrete Do I Need?</tspan><tspan x="72" y="404">Bags vs Ready-Mix</tspan></text>
+  <text x="72" y="566" fill="#fff" fill-opacity=".85" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Esti<tspan fill="#fbbf24">Calc</tspan><tspan fill="#fff" fill-opacity=".7" font-weight="400"> · Home improvement guides</tspan></text>
+</svg>

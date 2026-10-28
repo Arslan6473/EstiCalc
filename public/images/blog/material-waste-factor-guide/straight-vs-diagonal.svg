@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Straight versus diagonal tile layout waste</title>
+  <desc id="d">The same area, about 4 feet 8 inches by 3 feet 9 inches, tiled with 12 inch tiles. Left: a straight grid where only the last row and last column are cut. Right: a diagonal layout where every tile touching an edge is cut at 45 degrees, 22 cut pieces against 8 full tiles.</desc>
+  <rect width="800" height="380" fill="#ffffff"/>
+  <defs>
+    <clipPath id="room"><rect x="440" y="60" width="300" height="240"/></clipPath>
+  </defs>
+  <text x="200" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Straight: ~10%</text>
+  <text x="600" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Diagonal: ~15%</text>
+  <g stroke="#0f766e" stroke-width="1.5" fill="#f0fdfa">
+    <rect x="60" y="60" width="64" height="64"/><rect x="124" y="60" width="64" height="64"/><rect x="188" y="60" width="64" height="64"/><rect x="252" y="60" width="64" height="64"/>
+    <rect x="60" y="124" width="64" height="64"/><rect x="124" y="124" width="64" height="64"/><rect x="188" y="124" width="64" height="64"/><rect x="252" y="124" width="64" height="64"/>
+    <rect x="60" y="188" width="64" height="64"/><rect x="124" y="188" width="64" height="64"/><rect x="188" y="188" width="64" height="64"/><rect x="252" y="188" width="64" height="64"/>
+  </g>
+  <g stroke="#f59e0b" stroke-width="2" fill="#fde68a">
+    <rect x="316" y="60" width="44" height="64"/><rect x="316" y="124" width="44" height="64"/><rect x="316" y="188" width="44" height="64"/>
+    <rect x="60" y="252" width="64" height="48"/><rect x="124" y="252" width="64" height="48"/><rect x="188" y="252" width="64" height="48"/><rect x="252" y="252" width="64" height="48"/><rect x="316" y="252" width="44" height="48"/>
+  </g>
+  <rect x="60" y="60" width="300" height="240" fill="none" stroke="#0f172a" stroke-width="3"/>
+  <g clip-path="url(#room)">
+      <polygon points="476.9,-23.6 522.1,21.6 476.9,66.9 431.6,21.6" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="431.6,21.6 476.9,66.9 431.6,112.1 386.4,66.9" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="567.4,-23.6 612.6,21.6 567.4,66.9 522.1,21.6" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="522.1,21.6 567.4,66.9 522.1,112.1 476.9,66.9" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="476.9,66.9 522.1,112.1 476.9,157.4 431.6,112.1" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="431.6,112.1 476.9,157.4 431.6,202.6 386.4,157.4" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="657.9,-23.6 703.1,21.6 657.9,66.9 612.6,21.6" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="612.6,21.6 657.9,66.9 612.6,112.1 567.4,66.9" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="476.9,157.4 522.1,202.6 476.9,247.9 431.6,202.6" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="431.6,202.6 476.9,247.9 431.6,293.1 386.4,247.9" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="703.1,21.6 748.4,66.9 703.1,112.1 657.9,66.9" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="476.9,247.9 522.1,293.1 476.9,338.4 431.6,293.1" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="748.4,66.9 793.6,112.1 748.4,157.4 703.1,112.1" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="703.1,112.1 748.4,157.4 703.1,202.6 657.9,157.4" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="567.4,247.9 612.6,293.1 567.4,338.4 522.1,293.1" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="522.1,293.1 567.4,338.4 522.1,383.6 476.9,338.4" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="748.4,157.4 793.6,202.6 748.4,247.9 703.1,202.6" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="703.1,202.6 748.4,247.9 703.1,293.1 657.9,247.9" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="657.9,247.9 703.1,293.1 657.9,338.4 612.6,293.1" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="612.6,293.1 657.9,338.4 612.6,383.6 567.4,338.4" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="748.4,247.9 793.6,293.1 748.4,338.4 703.1,293.1" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="703.1,293.1 748.4,338.4 703.1,383.6 657.9,338.4" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>
+      <polygon points="567.4,66.9 612.6,112.1 567.4,157.4 522.1,112.1" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+      <polygon points="522.1,112.1 567.4,157.4 522.1,202.6 476.9,157.4" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+      <polygon points="657.9,66.9 703.1,112.1 657.9,157.4 612.6,112.1" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+      <polygon points="612.6,112.1 657.9,157.4 612.6,202.6 567.4,157.4" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+      <polygon points="567.4,157.4 612.6,202.6 567.4,247.9 522.1,202.6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+      <polygon points="522.1,202.6 567.4,247.9 522.1,293.1 476.9,247.9" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+      <polygon points="657.9,157.4 703.1,202.6 657.9,247.9 612.6,202.6" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+      <polygon points="612.6,202.6 657.9,247.9 612.6,293.1 567.4,247.9" fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5"/>
+  </g>
+  <rect x="440" y="60" width="300" height="240" fill="none" stroke="#0f172a" stroke-width="3"/>
+  <g font-size="16" fill="#0f172a" text-anchor="middle">
+    <text x="210" y="332">12 full tiles, 8 cut pieces;</text>
+    <text x="210" y="354">offcuts often start the next row.</text>
+    <text x="590" y="332">8 full tiles, 22 cut pieces at 45°;</text>
+    <text x="590" y="354">triangular offcuts are rarely reusable.</text>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#4c1d95"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#fff" stroke-opacity=".07" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="960" cy="315" r="250" fill="#fff" fill-opacity=".08"/>
+  <g transform="translate(780 135)">
+    <rect x="60" y="60" width="200" height="70" rx="18" fill="#ffffff"/>
+    <rect x="60" y="80" width="200" height="30" fill="#fbbf24"/>
+    <path d="M260 95h40v70H160v40" fill="none" stroke="#ffffff" stroke-width="12" stroke-linejoin="round"/>
+    <rect x="146" y="200" width="28" height="110" rx="10" fill="#1f2937"/>
+    <rect x="40" y="240" width="40" height="80" rx="8" fill="#fbbf24"/><rect x="88" y="260" width="40" height="60" rx="8" fill="#ffffff" opacity=".85"/>
+    <rect x="210" y="250" width="40" height="70" rx="8" fill="#ffffff" opacity=".6"/><rect x="258" y="230" width="40" height="90" rx="8" fill="#fbbf24" opacity=".8"/></g>
+  <rect x="72" y="70" width="248" height="44" rx="22" fill="#fff" fill-opacity=".15"/>
+  <text x="92" y="99" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">PAINT &amp; FINISHES</text>
+  <text fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800"><tspan x="72" y="267">How Much Paint Do I</tspan><tspan x="72" y="335">Need? A Room-by-Room</tspan><tspan x="72" y="404">Guide</tspan></text>
+  <text x="72" y="566" fill="#fff" fill-opacity=".85" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Esti<tspan fill="#fbbf24">Calc</tspan><tspan fill="#fff" fill-opacity=".7" font-weight="400"> · Home improvement guides</tspan></text>
+</svg>

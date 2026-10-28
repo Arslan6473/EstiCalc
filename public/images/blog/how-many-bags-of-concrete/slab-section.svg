@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Concrete slab cross-section</title>
+  <desc id="d">A 4 inch concrete slab poured between form boards on top of 4 inches of compacted gravel base over undisturbed soil, with reinforcement placed near the middle of the slab thickness.</desc>
+  <rect width="800" height="320" fill="#ffffff"/>
+  <!-- soil -->
+  <rect x="40" y="220" width="720" height="70" fill="#f5efe6"/>
+  <text x="400" y="266" text-anchor="middle" font-size="17" fill="#0f172a">undisturbed or compacted soil</text>
+  <!-- gravel 4in => 60px -->
+  <rect x="80" y="160" width="640" height="60" fill="#cbd5e1"/>
+  <g fill="#94a3b8"><circle cx="120" cy="190" r="6"/><circle cx="200" cy="178" r="5"/><circle cx="280" cy="200" r="6"/><circle cx="520" cy="182" r="5"/><circle cx="600" cy="204" r="6"/><circle cx="680" cy="186" r="5"/></g>
+  <text x="400" y="196" text-anchor="middle" font-size="17" fill="#0f172a">4 in compacted gravel base</text>
+  <!-- slab 4in => 60px -->
+  <rect x="80" y="100" width="640" height="60" fill="#e2e8f0" stroke="#0f766e" stroke-width="2"/>
+  <line x1="96" y1="130" x2="704" y2="130" stroke="#f59e0b" stroke-width="4" stroke-dasharray="14 8"/>
+  <text x="400" y="122" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">4 in concrete slab</text>
+  <text x="400" y="152" text-anchor="middle" font-size="16" fill="#b45309">mesh or rebar near mid-depth</text>
+  <!-- forms -->
+  <rect x="64" y="96" width="16" height="70" fill="#d6a76c" stroke="#0f172a" stroke-width="1.5"/>
+  <rect x="720" y="96" width="16" height="70" fill="#d6a76c" stroke="#0f172a" stroke-width="1.5"/>
+  <text x="72" y="84" text-anchor="middle" font-size="16" fill="#0f172a">form</text>
+  <text x="728" y="84" text-anchor="middle" font-size="16" fill="#0f172a">form</text>
+  <text x="400" y="50" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">8 × 10 ft pad: 8 × 10 × 0.333 = 26.7 cu ft ≈ 49 × 80 lb bags with 10%</text>
+</svg>

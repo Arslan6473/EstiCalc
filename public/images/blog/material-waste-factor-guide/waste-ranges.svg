@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Typical waste factors by material</title>
+  <desc id="d">Range bars on a 0 to 20 percent scale: paint about 10 percent; plank flooring 5 to 15; tile 10 to 20; drywall 10 to 15; framing lumber 10 to 15; roofing shingles 10 to 15; concrete 5 to 10; mulch 5 to 10.</desc>
+  <rect width="800" height="460" fill="#ffffff"/>
+  <text x="400" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Typical waste allowance (%)</text>
+  <!-- axis: x=220 => 0%, x=740 => 20% ; 26px per % -->
+  <g stroke="#e2e8f0" stroke-width="2">
+    <line x1="220" y1="56" x2="220" y2="400"/>
+    <line x1="350" y1="56" x2="350" y2="400"/>
+    <line x1="480" y1="56" x2="480" y2="400"/>
+    <line x1="610" y1="56" x2="610" y2="400"/>
+    <line x1="740" y1="56" x2="740" y2="400"/>
+  </g>
+  <g font-size="16" fill="#0f172a" text-anchor="middle">
+    <text x="220" y="426">0%</text><text x="350" y="426">5%</text><text x="480" y="426">10%</text><text x="610" y="426">15%</text><text x="740" y="426">20%</text>
+  </g>
+  <g font-size="17" fill="#0f172a" text-anchor="end">
+    <text x="205" y="82">Paint</text>
+    <text x="205" y="124">Plank flooring</text>
+    <text x="205" y="166">Tile</text>
+    <text x="205" y="208">Drywall</text>
+    <text x="205" y="250">Framing lumber</text>
+    <text x="205" y="292">Roof shingles</text>
+    <text x="205" y="334">Concrete</text>
+    <text x="205" y="376">Mulch</text>
+  </g>
+  <!-- bars -->
+  <circle cx="480" cy="76" r="9" fill="#0f766e"/>
+  <rect x="350" y="106" width="260" height="22" rx="11" fill="#0f766e"/>
+  <rect x="480" y="148" width="260" height="22" rx="11" fill="#f59e0b"/>
+  <rect x="480" y="190" width="130" height="22" rx="11" fill="#0f766e"/>
+  <rect x="480" y="232" width="130" height="22" rx="11" fill="#0f766e"/>
+  <rect x="480" y="274" width="130" height="22" rx="11" fill="#0f766e"/>
+  <rect x="350" y="316" width="130" height="22" rx="11" fill="#0f766e"/>
+  <rect x="350" y="358" width="130" height="22" rx="11" fill="#0f766e"/>
+  <text x="400" y="452" text-anchor="middle" font-size="16" fill="#0f172a">Lower end for simple layouts; higher end for complex shapes and patterns.</text>
+</svg>

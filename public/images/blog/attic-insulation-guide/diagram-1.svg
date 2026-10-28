@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Arial, Helvetica, sans-serif">
+  <title>Attic floor insulation cross-section</title>
+  <rect width="900" height="480" fill="#ffffff"/>
+  <!-- roof line -->
+  <polygon points="40,330 450,40 860,330" fill="none" stroke="#0f172a" stroke-width="4"/>
+  <text x="450" y="30" font-size="16" fill="#0f172a" text-anchor="middle">Roof deck</text>
+  <!-- new insulation -->
+  <rect x="150" y="210" width="600" height="80" fill="#f59e0b" fill-opacity="0.35"/>
+  <!-- existing insulation -->
+  <rect x="100" y="290" width="700" height="40" fill="#0f766e" fill-opacity="0.35"/>
+  <!-- ceiling drywall -->
+  <rect x="60" y="330" width="780" height="12" fill="#0f172a"/>
+  <!-- joists -->
+  <g fill="#e2e8f0" stroke="#0f172a" stroke-width="2">
+    <rect x="140" y="290" width="16" height="40"/>
+    <rect x="260" y="290" width="16" height="40"/>
+    <rect x="380" y="290" width="16" height="40"/>
+    <rect x="500" y="290" width="16" height="40"/>
+    <rect x="620" y="290" width="16" height="40"/>
+    <rect x="740" y="290" width="16" height="40"/>
+  </g>
+  <!-- baffles -->
+  <line x1="120" y1="270" x2="230" y2="192" stroke="#0f172a" stroke-width="3" stroke-dasharray="8 4"/>
+  <line x1="780" y1="270" x2="670" y2="192" stroke="#0f172a" stroke-width="3" stroke-dasharray="8 4"/>
+  <text x="60" y="230" font-size="16" fill="#0f172a">Baffle</text>
+  <text x="790" y="230" font-size="16" fill="#0f172a">Baffle</text>
+  <!-- depth ruler -->
+  <rect x="440" y="200" width="10" height="130" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+  <line x1="420" y1="210" x2="470" y2="210" stroke="#0f172a" stroke-width="2"/>
+  <text x="470" y="250" font-size="18" fill="#0f172a" font-weight="bold">New loose-fill: add ≈ R48</text>
+  <text x="470" y="275" font-size="16" fill="#0f172a">(about 13–15 in of cellulose)</text>
+  <text x="170" y="316" font-size="16" fill="#0f172a">Existing 4 in batts ≈ R12</text>
+  <text x="450" y="368" font-size="16" fill="#0f172a" text-anchor="middle">Ceiling drywall</text>
+  <!-- labels -->
+  <text x="40" y="410" font-size="18" fill="#0f766e" font-weight="bold">Total ≈ R12 + R48 = R60 (zone 5 target)</text>
+  <text x="40" y="440" font-size="16" fill="#0f172a">Depth ruler stapled to a joist shows when the target settled depth is reached.</text>
+  <text x="40" y="466" font-size="16" fill="#0f172a">Keep baffles open so soffit air can reach the roof vents.</text>
+</svg>

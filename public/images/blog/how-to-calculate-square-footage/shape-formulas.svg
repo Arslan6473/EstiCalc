@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Area formulas for common odd shapes</title>
+  <desc id="d">A right triangle with 6 foot base and 4 foot height has 12 square feet. A circle with 5 foot radius has 78.5 square feet. A half circle with 4 foot radius has 25.1 square feet. A trapezoid with sides of 8 and 5 feet and 2 feet deep has 13 square feet.</desc>
+  <rect width="800" height="340" fill="#ffffff"/>
+  <!-- triangle -->
+  <polygon points="40,220 160,220 40,140" fill="#ccfbf1" stroke="#0f766e" stroke-width="3"/>
+  <text x="100" y="244" text-anchor="middle" font-size="16" fill="#0f766e">base 6 ft</text>
+  <text x="34" y="184" text-anchor="end" font-size="16" fill="#0f766e">4</text>
+  <text x="100" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Triangle</text>
+  <text x="100" y="286" text-anchor="middle" font-size="16" fill="#0f172a">½ × 6 × 4</text>
+  <text x="100" y="310" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">= 12 sq ft</text>
+  <!-- circle -->
+  <circle cx="300" cy="160" r="70" fill="#ccfbf1" stroke="#0f766e" stroke-width="3"/>
+  <line x1="300" y1="160" x2="370" y2="160" stroke="#f59e0b" stroke-width="3"/>
+  <text x="335" y="152" text-anchor="middle" font-size="16" fill="#0f172a">r = 5 ft</text>
+  <text x="300" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Circle</text>
+  <text x="300" y="286" text-anchor="middle" font-size="16" fill="#0f172a">3.1416 × 5²</text>
+  <text x="300" y="310" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">= 78.5 sq ft</text>
+  <!-- half circle -->
+  <path d="M 440 200 A 60 60 0 0 1 560 200 Z" fill="#ccfbf1" stroke="#0f766e" stroke-width="3"/>
+  <line x1="500" y1="200" x2="560" y2="200" stroke="#f59e0b" stroke-width="3"/>
+  <text x="530" y="224" text-anchor="middle" font-size="16" fill="#0f172a">r = 4 ft</text>
+  <text x="500" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Half circle</text>
+  <text x="500" y="286" text-anchor="middle" font-size="16" fill="#0f172a">3.1416 × 4² ÷ 2</text>
+  <text x="500" y="310" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">= 25.1 sq ft</text>
+  <!-- trapezoid -->
+  <polygon points="630,200 770,200 744,130 656,130" fill="#ccfbf1" stroke="#0f766e" stroke-width="3"/>
+  <text x="700" y="224" text-anchor="middle" font-size="16" fill="#0f766e">8 ft</text>
+  <text x="700" y="122" text-anchor="middle" font-size="16" fill="#0f766e">5 ft</text>
+  <line x1="700" y1="130" x2="700" y2="200" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="708" y="172" font-size="16" fill="#0f172a">2 ft</text>
+  <text x="700" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Trapezoid</text>
+  <text x="700" y="286" text-anchor="middle" font-size="16" fill="#0f172a">½ × (8 + 5) × 2</text>
+  <text x="700" y="310" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">= 13 sq ft</text>
+</svg>

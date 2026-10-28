@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="Arial, Helvetica, sans-serif">
+  <title>Framing plan for a 12 by 16 foot deck</title>
+  <rect width="900" height="520" fill="#ffffff"/>
+  <!-- house wall -->
+  <rect x="60" y="40" width="640" height="30" fill="#e2e8f0" stroke="#0f172a" stroke-width="2"/>
+  <text x="380" y="61" font-size="16" fill="#0f172a" text-anchor="middle">House</text>
+  <!-- ledger -->
+  <rect x="60" y="70" width="640" height="12" fill="#f59e0b"/>
+  <!-- joists: 16 ft = 640px, 40px/ft; 16in = 53.33px; 13 joists -->
+  <rect x="56.0" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="109.3" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="162.7" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="216.0" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="269.3" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="322.7" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="376.0" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="429.3" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="482.7" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="536.0" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="589.3" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="642.7" y="82" width="8" height="360" fill="#0f766e"/>
+  <rect x="696.0" y="82" width="8" height="360" fill="#0f766e"/>
+  <!-- rim joist -->
+  <rect x="60" y="442" width="640" height="12" fill="#0f766e" fill-opacity="0.6" stroke="#0f172a"/>
+  <!-- beam (dashed, under joists near end) -->
+  <rect x="60" y="410" width="640" height="16" fill="none" stroke="#0f172a" stroke-width="3" stroke-dasharray="10 6"/>
+  <!-- posts -->
+  <rect x="66" y="408" width="20" height="20" fill="#0f172a"/>
+  <rect x="370" y="408" width="20" height="20" fill="#0f172a"/>
+  <rect x="674" y="408" width="20" height="20" fill="#0f172a"/>
+  <!-- dims -->
+  <text x="380" y="486" font-size="18" fill="#0f172a" text-anchor="middle">16 ft (192 in ÷ 16 in = 12 spaces → 13 joists)</text>
+  <text x="712" y="260" font-size="18" fill="#0f172a">12 ft span</text>
+  <!-- legend -->
+  <g font-size="16" fill="#0f172a">
+    <rect x="712" y="80" width="20" height="10" fill="#f59e0b"/><text x="740" y="90">Ledger</text>
+    <rect x="712" y="110" width="20" height="10" fill="#0f766e"/><text x="740" y="120">Joists 16 in OC</text>
+    <rect x="712" y="140" width="20" height="10" fill="none" stroke="#0f172a" stroke-dasharray="4 3"/><text x="740" y="150">Beam</text>
+    <rect x="712" y="170" width="14" height="14" fill="#0f172a"/><text x="740" y="182">Post (3)</text>
+  </g>
+  <text x="60" y="512" font-size="16" fill="#0f766e">Joist, beam and post sizes come from your local code span tables.</text>
+</svg>

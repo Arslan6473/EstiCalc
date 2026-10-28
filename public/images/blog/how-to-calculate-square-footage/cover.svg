@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#134e4a"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#fff" stroke-opacity=".07" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="960" cy="315" r="250" fill="#fff" fill-opacity=".08"/>
+  <g transform="translate(780 135)">
+    <rect x="40" y="70" width="280" height="200" rx="8" fill="#ffffff" opacity=".95"/>
+    <path d="M40 170h150v100" fill="none" stroke="#94a3b8" stroke-width="4" stroke-dasharray="10 8"/>
+    <path d="M40 300h280M40 290v20M320 290v20M350 70v200M340 70h20M340 270h20" stroke="#fbbf24" stroke-width="5"/>
+    <text x="180" y="335" fill="#ffffff" font-size="26" font-weight="700" text-anchor="middle" font-family="Arial">14 ft</text>
+    <rect x="200" y="190" width="90" height="56" rx="10" fill="#fbbf24"/>
+    <text x="245" y="227" fill="#1f2937" font-size="22" font-weight="800" text-anchor="middle" font-family="Arial">sq ft</text></g>
+  <rect x="72" y="70" width="274" height="44" rx="22" fill="#fff" fill-opacity=".15"/>
+  <text x="92" y="99" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">AREA &amp; MEASUREMENT</text>
+  <text fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800"><tspan x="72" y="233">How to Calculate</tspan><tspan x="72" y="301">Square Footage of Any</tspan><tspan x="72" y="370">Room (Including Odd</tspan><tspan x="72" y="438">Shapes)</tspan></text>
+  <text x="72" y="566" fill="#fff" fill-opacity=".85" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Esti<tspan fill="#fbbf24">Calc</tspan><tspan fill="#fff" fill-opacity=".7" font-weight="400"> · Home improvement guides</tspan></text>
+</svg>

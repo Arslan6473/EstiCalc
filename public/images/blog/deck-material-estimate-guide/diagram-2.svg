@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Arial, Helvetica, sans-serif">
+  <title>Deck board screw pattern at a joist</title>
+  <rect width="900" height="420" fill="#ffffff"/>
+  <!-- joist running vertically under boards -->
+  <rect x="300" y="40" width="60" height="320" fill="#0f766e" fill-opacity="0.35" stroke="#0f766e" stroke-width="2"/>
+  <text x="330" y="385" font-size="16" fill="#0f172a" text-anchor="middle">Joist (1.5 in wide)</text>
+  <!-- boards horizontal: 5.5in = 88px, gap 3/16in = 3px -->
+  <g fill="#e2e8f0" stroke="#0f172a" stroke-width="2">
+    <rect x="60" y="60" width="560" height="88"/>
+    <rect x="60" y="151" width="560" height="88"/>
+    <rect x="60" y="242" width="560" height="88"/>
+  </g>
+  <!-- screws -->
+  <g fill="#f59e0b" stroke="#0f172a" stroke-width="1.5">
+    <circle cx="330" cy="75" r="6"/><circle cx="330" cy="133" r="6"/>
+    <circle cx="330" cy="166" r="6"/><circle cx="330" cy="224" r="6"/>
+    <circle cx="330" cy="257" r="6"/><circle cx="330" cy="315" r="6"/>
+  </g>
+  <!-- dims -->
+  <line x1="640" y1="60" x2="640" y2="148" stroke="#0f172a" stroke-width="2"/>
+  <text x="652" y="110" font-size="16" fill="#0f172a">5.5 in board</text>
+  <text x="652" y="155" font-size="16" fill="#0f172a">3/16 in gap</text>
+  <text x="652" y="200" font-size="16" fill="#0f172a">Row = 5.6875 in</text>
+  <text x="380" y="80" font-size="16" fill="#0f172a">≈ 3/4 in from edge</text>
+  <g font-size="16" fill="#0f172a">
+    <text x="652" y="260" font-weight="bold">2 screws per board</text>
+    <text x="652" y="282" font-weight="bold">per joist crossing</text>
+    <text x="652" y="320">12 ft deck: 144 ÷ 5.6875</text>
+    <text x="652" y="342">= 25.3 → 26 rows</text>
+    <text x="652" y="364">26 × 13 × 2 = 676 screws</text>
+  </g>
+</svg>

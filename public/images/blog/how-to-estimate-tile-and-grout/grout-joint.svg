@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Grout joint per tile</title>
+  <desc id="d">A 12 by 24 inch tile with a 1/8 inch grout joint along its long top edge (24 inches) and its short right edge (12 inches), so each tile contributes 36 inches of joint. A cross-section shows the joint is 1/8 inch wide and 3/8 inch deep, the tile thickness.</desc>
+  <rect width="800" height="400" fill="#ffffff"/>
+  <!-- tile 24x12 in, scale 16px/in => 384 x 192 at (60,90) -->
+  <rect x="60" y="90" width="384" height="192" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+  <!-- joints -->
+  <rect x="60" y="78" width="396" height="12" fill="#f59e0b"/>
+  <rect x="444" y="78" width="12" height="204" fill="#f59e0b"/>
+  <text x="252" y="190" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">12 × 24 in tile</text>
+  <text x="252" y="214" text-anchor="middle" font-size="16" fill="#0f172a">= 2 sq ft</text>
+  <text x="252" y="66" text-anchor="middle" font-size="16" fill="#b45309" font-weight="700">24 in of joint</text>
+  <text x="466" y="190" font-size="16" fill="#b45309" font-weight="700">12 in</text>
+  <text x="252" y="316" text-anchor="middle" font-size="17" fill="#0f172a">Each tile adds 24 + 12 = 36 in of joint</text>
+  <text x="252" y="344" text-anchor="middle" font-size="17" fill="#0f172a">→ 18 in of joint per sq ft</text>
+  <!-- cross section -->
+  <text x="650" y="66" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Joint cross-section</text>
+  <rect x="540" y="140" width="96" height="60" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+  <rect x="636" y="140" width="24" height="60" fill="#f59e0b"/>
+  <rect x="660" y="140" width="96" height="60" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+  <rect x="540" y="200" width="216" height="16" fill="#cbd5e1"/>
+  <text x="648" y="236" text-anchor="middle" font-size="16" fill="#0f172a">thinset</text>
+  <text x="648" y="128" text-anchor="middle" font-size="16" fill="#b45309">⅛ in wide</text>
+  <line x1="770" y1="140" x2="770" y2="200" stroke="#0f766e" stroke-width="2"/>
+  <text x="764" y="264" text-anchor="end" font-size="16" fill="#0f766e">⅜ in deep (tile thickness)</text>
+  <text x="650" y="316" text-anchor="middle" font-size="17" fill="#0f172a">Volume per sq ft =</text>
+  <text x="650" y="344" text-anchor="middle" font-size="17" font-weight="700" fill="#0f172a">18 × 0.125 × 0.375 = 0.84 cu in</text>
+</svg>

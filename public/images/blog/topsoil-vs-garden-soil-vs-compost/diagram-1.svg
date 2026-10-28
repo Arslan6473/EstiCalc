@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 440" font-family="Arial, Helvetica, sans-serif">
+  <title>Topsoil, garden soil and compost compared</title>
+  <rect width="900" height="440" fill="#ffffff"/>
+  <!-- piles -->
+  <path d="M60 220 Q150 90 240 220 Z" fill="#a16207" fill-opacity="0.55" stroke="#0f172a" stroke-width="2"/>
+  <path d="M340 220 Q430 90 520 220 Z" fill="#78350f" fill-opacity="0.6" stroke="#0f172a" stroke-width="2"/>
+  <path d="M620 220 Q710 90 800 220 Z" fill="#1c1917" fill-opacity="0.75" stroke="#0f172a" stroke-width="2"/>
+  <line x1="40" y1="220" x2="860" y2="220" stroke="#e2e8f0" stroke-width="3"/>
+  <g font-size="20" fill="#0f172a" font-weight="bold" text-anchor="middle">
+    <text x="150" y="60">Topsoil</text>
+    <text x="430" y="60">Garden soil</text>
+    <text x="710" y="60">Compost</text>
+  </g>
+  <g font-size="16" fill="#0f172a" text-anchor="middle">
+    <text x="150" y="255">Mineral soil, screened</text>
+    <text x="150" y="281">Low–moderate organic</text>
+    <text x="430" y="255">Topsoil + organic matter</text>
+    <text x="430" y="281">Ready-to-plant blend</text>
+    <text x="710" y="255">Decomposed organic matter</text>
+    <text x="710" y="281">Very high organic</text>
+  </g>
+  <g font-size="16" text-anchor="middle">
+    <rect x="50" y="305" width="200" height="90" rx="8" fill="#f0fdfa" stroke="#0f766e"/>
+    <text x="150" y="335" fill="#0f766e" font-weight="bold">Job: fill and grade</text>
+    <text x="150" y="361" fill="#0f172a">New lawns: 4–6 in</text>
+    <text x="150" y="384" fill="#0f172a">Fill low spots</text>
+    <rect x="330" y="305" width="200" height="90" rx="8" fill="#f0fdfa" stroke="#0f766e"/>
+    <text x="430" y="335" fill="#0f766e" font-weight="bold">Job: planting medium</text>
+    <text x="430" y="361" fill="#0f172a">Fill raised beds</text>
+    <text x="430" y="384" fill="#0f172a">or 2–3 in in beds</text>
+    <rect x="610" y="305" width="200" height="90" rx="8" fill="#fffbeb" stroke="#f59e0b"/>
+    <text x="710" y="335" fill="#b45309" font-weight="bold">Job: amend and feed</text>
+    <text x="710" y="361" fill="#0f172a">Beds: 2–3 in worked in</text>
+    <text x="710" y="384" fill="#0f172a">Lawns: 1/4–1/2 in</text>
+  </g>
+  <text x="450" y="428" font-size="16" fill="#0f172a" text-anchor="middle">1 cubic yard = 27 cu ft = 18 bags of 1.5 cu ft</text>
+</svg>

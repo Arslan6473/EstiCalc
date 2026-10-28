@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">One section of a 6 foot privacy fence</title>
+  <desc id="d">Elevation of a fence section between two 4 by 4 posts 8 feet apart on centre. The fence is 6 feet tall with three 2 by 4 rails and 1 by 6 pickets with small gaps. Each post is set 30 inches into concrete on 6 inches of gravel.</desc>
+  <rect width="800" height="480" fill="#ffffff"/>
+  <!-- scale 4px per inch; grade at y=330 -->
+  <rect x="20" y="330" width="760" height="140" fill="#f5efe6"/>
+  <line x1="20" y1="330" x2="780" y2="330" stroke="#0f172a" stroke-width="2"/>
+  <text x="34" y="322" font-size="16" fill="#0f172a">grade</text>
+  <!-- holes: 10in=40px wide; concrete 30in=120 => y 330..450 ; gravel 6in=24 => to 474 (clip at 470) -->
+  <rect x="163" y="330" width="40" height="120" fill="#e2e8f0" stroke="#0f766e" stroke-width="2"/>
+  <rect x="163" y="450" width="40" height="20" fill="#cbd5e1"/>
+  <rect x="547" y="330" width="40" height="120" fill="#e2e8f0" stroke="#0f766e" stroke-width="2"/>
+  <rect x="547" y="450" width="40" height="20" fill="#cbd5e1"/>
+  <!-- posts centred at 183 and 567 (384px apart = 96in) -->
+  <rect x="176" y="42" width="14" height="408" fill="#d6a76c" stroke="#0f172a" stroke-width="1.5"/>
+  <rect x="560" y="42" width="14" height="408" fill="#d6a76c" stroke="#0f172a" stroke-width="1.5"/>
+  <!-- rails 3.5in = 14px tall -->
+  <g fill="#c8a27a" stroke="#0f172a" stroke-width="1.5">
+    <rect x="190" y="70" width="370" height="14"/>
+    <rect x="190" y="180" width="370" height="14"/>
+    <rect x="190" y="290" width="370" height="14"/>
+  </g>
+  <!-- pickets 5.5in=22px + 1px gap, drawn semi-transparent over left half only -->
+  <g fill="#f0fdfa" stroke="#0f766e" stroke-width="1.5">
+    <rect x="190" y="46" width="22" height="280"/>
+    <rect x="213" y="46" width="22" height="280"/>
+    <rect x="236" y="46" width="22" height="280"/>
+    <rect x="259" y="46" width="22" height="280"/>
+    <rect x="282" y="46" width="22" height="280"/>
+    <rect x="305" y="46" width="22" height="280"/>
+    <rect x="328" y="46" width="22" height="280"/>
+  </g>
+  <text x="440" y="134" text-anchor="middle" font-size="16" fill="#0f172a">pickets cut away to</text>
+  <text x="440" y="154" text-anchor="middle" font-size="16" fill="#0f172a">show the rails</text>
+  <!-- labels -->
+  <g font-size="16" fill="#0f172a">
+    <text x="600" y="82">top rail</text>
+    <text x="600" y="192">middle rail</text>
+    <text x="600" y="302">bottom rail</text>
+    <text x="600" y="380" fill="#0f766e" font-weight="700">30 in concrete</text>
+    <text x="600" y="466">6 in gravel</text>
+  </g>
+  <!-- dims -->
+  <line x1="183" y1="22" x2="567" y2="22" stroke="#0f766e" stroke-width="2"/>
+  <line x1="183" y1="14" x2="183" y2="30" stroke="#0f766e" stroke-width="2"/>
+  <line x1="567" y1="14" x2="567" y2="30" stroke="#0f766e" stroke-width="2"/>
+  <rect x="300" y="10" width="150" height="22" fill="#ffffff"/>
+  <text x="375" y="27" text-anchor="middle" font-size="17" font-weight="700" fill="#0f766e">8 ft on centre</text>
+  <line x1="130" y1="42" x2="130" y2="330" stroke="#0f766e" stroke-width="2"/>
+  <line x1="122" y1="42" x2="138" y2="42" stroke="#0f766e" stroke-width="2"/>
+  <line x1="122" y1="330" x2="138" y2="330" stroke="#0f766e" stroke-width="2"/>
+  <text x="112" y="186" text-anchor="middle" font-size="17" font-weight="700" fill="#0f766e" transform="rotate(-90 112 186)">6 ft</text>
+</svg>

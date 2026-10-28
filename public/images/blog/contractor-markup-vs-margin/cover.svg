@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#1e3a8a"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#fff" stroke-opacity=".07" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="960" cy="315" r="250" fill="#fff" fill-opacity=".08"/>
+  <g transform="translate(780 135)">
+    <rect x="60" y="50" width="180" height="250" rx="12" fill="#ffffff"/>
+    <path d="M90 100h120M90 140h90M90 180h110M90 220h70" stroke="#cbd5e1" stroke-width="10" stroke-linecap="round"/>
+    <path d="M90 260h120" stroke="#fbbf24" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="270" cy="250" r="56" fill="#fbbf24"/>
+    <text x="270" y="272" fill="#1f2937" font-size="62" font-weight="800" text-anchor="middle" font-family="Arial">$</text></g>
+  <rect x="72" y="70" width="248" height="44" rx="22" fill="#fff" fill-opacity=".15"/>
+  <text x="92" y="99" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">COST &amp; BUDGETING</text>
+  <text fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800"><tspan x="72" y="267">Contractor Markup vs</tspan><tspan x="72" y="335">Margin: The Difference</tspan><tspan x="72" y="404">and Why It Matters</tspan></text>
+  <text x="72" y="566" fill="#fff" fill-opacity=".85" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Esti<tspan fill="#fbbf24">Calc</tspan><tspan fill="#fff" fill-opacity=".7" font-weight="400"> · Home improvement guides</tspan></text>
+</svg>

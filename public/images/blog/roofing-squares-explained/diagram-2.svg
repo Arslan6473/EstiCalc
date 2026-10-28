@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="Arial, Helvetica, sans-serif">
+  <title>Gable roof plan measured in squares</title>
+  <rect width="900" height="480" fill="#ffffff"/>
+  <!-- plan 42 x 32 ft at 12px/ft = 504 x 384 -->
+  <rect x="60" y="50" width="504" height="384" fill="#e2e8f0" stroke="#0f172a" stroke-width="3"/>
+  <!-- walls 40x30 dashed inside -->
+  <rect x="72" y="62" width="480" height="360" fill="none" stroke="#0f172a" stroke-width="2" stroke-dasharray="8 6"/>
+  <!-- grid of 10x10 ft squares -->
+  <g stroke="#ffffff" stroke-width="2">
+    <line x1="180" y1="50" x2="180" y2="434"/><line x1="300" y1="50" x2="300" y2="434"/>
+    <line x1="420" y1="50" x2="420" y2="434"/><line x1="540" y1="50" x2="540" y2="434"/>
+    <line x1="60" y1="170" x2="564" y2="170"/><line x1="60" y1="290" x2="564" y2="290"/>
+    <line x1="60" y1="410" x2="564" y2="410"/>
+  </g>
+  <!-- ridge -->
+  <line x1="60" y1="242" x2="564" y2="242" stroke="#f59e0b" stroke-width="6"/>
+  <text x="312" y="232" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold">Ridge 42 ft</text>
+  <text x="120" y="115" font-size="16" fill="#0f172a">10 × 10 ft</text>
+  <text x="120" y="137" font-size="16" fill="#0f172a">= 1 square</text>
+  <text x="312" y="40" font-size="18" fill="#0f172a" text-anchor="middle">42 ft (40 ft wall + 1 ft overhangs)</text>
+  <text x="575" y="250" font-size="18" fill="#0f172a">32 ft</text>
+  <text x="200" y="462" font-size="16" fill="#0f172a">Dashed line = exterior walls (40 × 30 ft)</text>
+  <!-- math -->
+  <g font-size="16" fill="#0f172a">
+    <text x="640" y="100">42 × 32 = 1,344 sq ft</text>
+    <text x="640" y="130">× 1.118 (6/12)</text>
+    <text x="640" y="160">= 1,503 sq ft</text>
+    <text x="640" y="190">÷ 100 = 15.0 squares</text>
+    <text x="640" y="220">+10% waste = 16.5</text>
+    <text x="640" y="250">× 3 bundles</text>
+  </g>
+  <text x="640" y="290" font-size="20" fill="#0f766e" font-weight="bold">≈ 50 bundles</text>
+</svg>

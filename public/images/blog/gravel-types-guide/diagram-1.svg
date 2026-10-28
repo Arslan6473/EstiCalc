@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="Arial, Helvetica, sans-serif">
+  <title>Layered gravel driveway cross-section</title>
+  <rect width="900" height="460" fill="#ffffff"/>
+  <!-- top layer crowned -->
+  <path d="M60 150 Q330 110 600 150 L600 190 L60 190 Z" fill="#94a3b8" stroke="#0f172a" stroke-width="2"/>
+  <!-- middle #57 -->
+  <rect x="60" y="190" width="540" height="70" fill="#f59e0b" fill-opacity="0.45" stroke="#0f172a" stroke-width="2"/>
+  <g fill="#ffffff" stroke="#0f172a" stroke-width="1">
+    <polygon points="90,215 104,205 116,218 102,230"/><polygon points="180,230 196,220 206,236 190,244"/>
+    <polygon points="290,212 304,204 314,220 298,228"/><polygon points="400,232 414,222 424,238 408,246"/>
+    <polygon points="510,214 524,206 534,222 518,230"/>
+  </g>
+  <!-- base #3 -->
+  <rect x="60" y="260" width="540" height="90" fill="#0f766e" fill-opacity="0.35" stroke="#0f172a" stroke-width="2"/>
+  <g fill="#ffffff" stroke="#0f172a" stroke-width="1">
+    <polygon points="100,285 130,272 148,300 118,318"/><polygon points="230,300 262,288 278,316 246,330"/>
+    <polygon points="370,282 400,272 416,300 384,314"/><polygon points="490,300 522,290 536,318 504,330"/>
+  </g>
+  <!-- fabric and subgrade -->
+  <line x1="60" y1="352" x2="600" y2="352" stroke="#0f172a" stroke-width="3" stroke-dasharray="10 5"/>
+  <rect x="60" y="354" width="540" height="56" fill="#e2e8f0"/>
+  <!-- labels -->
+  <g font-size="16" fill="#0f172a">
+    <text x="630" y="150" font-weight="bold">Top: crusher run / #411</text>
+    <text x="630" y="172">2–3 in, compacted, crowned</text>
+    <text x="630" y="222" font-weight="bold">Middle: #57 stone</text>
+    <text x="630" y="244">about 4 in</text>
+    <text x="630" y="300" font-weight="bold">Base: #3 stone</text>
+    <text x="630" y="322">4–6 in</text>
+    <text x="630" y="360">Geotextile fabric (dashed)</text>
+    <text x="630" y="392">Compacted subgrade</text>
+  </g>
+  <text x="330" y="100" font-size="16" fill="#0f172a" text-anchor="middle">Crown sheds water to both sides</text>
+  <text x="60" y="440" font-size="16" fill="#0f766e">Depths are typical starting points; soft soils and heavy vehicles need thicker bases.</text>
+</svg>

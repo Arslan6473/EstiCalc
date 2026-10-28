@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" font-family="Arial, Helvetica, sans-serif">
+  <title>Markup versus margin on a 50,000 dollar job</title>
+  <rect width="900" height="400" fill="#ffffff"/>
+  <!-- bar: 50k = 750px; 40k = 600px -->
+  <rect x="60" y="150" width="600" height="70" fill="#0f766e"/>
+  <rect x="660" y="150" width="150" height="70" fill="#f59e0b"/>
+  <text x="360" y="192" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">Cost $40,000</text>
+  <text x="735" y="184" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold">Profit</text>
+  <text x="735" y="206" font-size="18" fill="#0f172a" text-anchor="middle" font-weight="bold">$10,000</text>
+  <!-- markup bracket: profit vs cost (above) -->
+  <path d="M60 130 L60 110 L660 110 L660 130" fill="none" stroke="#0f766e" stroke-width="3"/>
+  <text x="360" y="60" font-size="20" fill="#0f766e" text-anchor="middle" font-weight="bold">MARKUP = profit ÷ cost</text>
+  <text x="360" y="92" font-size="18" fill="#0f172a" text-anchor="middle">$10,000 ÷ $40,000 = 25%</text>
+  <!-- margin bracket: profit vs price (below) -->
+  <path d="M60 240 L60 260 L810 260 L810 240" fill="none" stroke="#b45309" stroke-width="3"/>
+  <text x="435" y="300" font-size="20" fill="#b45309" text-anchor="middle" font-weight="bold">MARGIN = profit ÷ price</text>
+  <text x="435" y="332" font-size="18" fill="#0f172a" text-anchor="middle">$10,000 ÷ $50,000 = 20%</text>
+  <text x="435" y="380" font-size="16" fill="#0f172a" text-anchor="middle">Price $50,000 — same profit, two different percentages</text>
+</svg>

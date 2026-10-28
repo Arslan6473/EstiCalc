@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="Arial, Helvetica, sans-serif">
+  <title>Sizing an air conditioner for a 14 by 18 foot room</title>
+  <rect width="900" height="460" fill="#ffffff"/>
+  <!-- room -->
+  <rect x="60" y="60" width="360" height="280" fill="#f8fafc" stroke="#0f172a" stroke-width="4"/>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="80" y1="60" x2="80" y2="340"/><line x1="100" y1="60" x2="100" y2="340"/>
+    <line x1="60" y1="80" x2="420" y2="80"/><line x1="60" y1="100" x2="420" y2="100"/>
+  </g>
+  <text x="240" y="40" font-size="18" fill="#0f172a" text-anchor="middle">18 ft</text>
+  <text x="440" y="205" font-size="18" fill="#0f172a">14 ft</text>
+  <!-- windows on south wall -->
+  <rect x="120" y="332" width="80" height="16" fill="#f59e0b"/>
+  <rect x="280" y="332" width="80" height="16" fill="#f59e0b"/>
+  <text x="240" y="378" font-size="16" fill="#0f172a" text-anchor="middle">South windows (very sunny)</text>
+  <!-- ac unit -->
+  <rect x="60" y="170" width="24" height="60" fill="#0f766e"/>
+  <text x="96" y="205" font-size="16" fill="#0f172a">AC</text>
+  <!-- people -->
+  <g fill="#0f172a">
+    <circle cx="220" cy="190" r="10"/><circle cx="250" cy="190" r="10"/><circle cx="280" cy="190" r="10"/>
+  </g>
+  <text x="250" y="225" font-size="16" fill="#0f172a" text-anchor="middle">3 people</text>
+  <!-- calculation panel -->
+  <rect x="500" y="60" width="360" height="300" rx="10" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+  <text x="520" y="98" font-size="18" fill="#0f172a" font-weight="bold">Area: 14 × 18 = 252 sq ft</text>
+  <text x="520" y="138" font-size="18" fill="#0f172a">Base (250–300 sq ft): 7,000</text>
+  <text x="520" y="178" font-size="18" fill="#0f172a">Very sunny +10%: 7,700</text>
+  <text x="520" y="218" font-size="18" fill="#0f172a">3rd person +600: 8,300</text>
+  <line x1="520" y1="240" x2="840" y2="240" stroke="#0f766e" stroke-width="2"/>
+  <text x="520" y="280" font-size="20" fill="#0f766e" font-weight="bold">≈ 8,000–8,300 BTU/h</text>
+  <text x="520" y="318" font-size="16" fill="#0f172a">Don't jump to 12,000 BTU:</text>
+  <text x="520" y="342" font-size="16" fill="#0f172a">oversizing causes short cycles.</text>
+  <text x="60" y="430" font-size="16" fill="#0f172a">Room-AC rule of thumb only — central systems need an ACCA Manual J load calculation.</text>
+</svg>

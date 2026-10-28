@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Paint sheen spectrum</title>
+  <desc id="d">Six swatches from left to right: flat (0 to 5 gloss units at 60 degrees), matte (up to about 10), eggshell (about 10 to 25), satin (about 20 to 35), semi-gloss (about 35 to 70) and gloss (about 70 and above). An arrow pointing right shows durability and washability increasing; an arrow pointing left shows the ability to hide surface flaws increasing.</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14b8a6"/><stop offset="0.5" stop-color="#0f766e"/><stop offset="1" stop-color="#0f766e"/></linearGradient>
+    <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset="0.35" stop-color="#0f766e"/><stop offset="1" stop-color="#0d5f58"/></linearGradient>
+    <linearGradient id="g6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.25" stop-color="#2dd4bf"/><stop offset="0.5" stop-color="#0f766e"/><stop offset="1" stop-color="#0b4f49"/></linearGradient>
+  </defs>
+  <rect width="800" height="380" fill="#ffffff"/>
+  <g stroke="#0f172a" stroke-width="1.5">
+    <rect x="30" y="40" width="110" height="110" rx="6" fill="url(#g1)"/>
+    <rect x="155" y="40" width="110" height="110" rx="6" fill="url(#g1)"/>
+    <rect x="280" y="40" width="110" height="110" rx="6" fill="url(#g3)"/>
+    <rect x="405" y="40" width="110" height="110" rx="6" fill="url(#g3)"/>
+    <rect x="530" y="40" width="110" height="110" rx="6" fill="url(#g5)"/>
+    <rect x="655" y="40" width="110" height="110" rx="6" fill="url(#g6)"/>
+  </g>
+  <!-- highlight streaks -->
+  <ellipse cx="450" cy="70" rx="26" ry="8" fill="#ffffff" fill-opacity="0.18"/>
+  <ellipse cx="572" cy="68" rx="30" ry="9" fill="#ffffff" fill-opacity="0.35"/>
+  <ellipse cx="695" cy="66" rx="34" ry="10" fill="#ffffff" fill-opacity="0.6"/>
+  <g font-size="17" font-weight="700" fill="#0f172a" text-anchor="middle">
+    <text x="85" y="178">Flat</text><text x="210" y="178">Matte</text><text x="335" y="178">Eggshell</text><text x="460" y="178">Satin</text><text x="585" y="178">Semi-gloss</text><text x="710" y="178">Gloss</text>
+  </g>
+  <g font-size="16" fill="#0f172a" text-anchor="middle">
+    <text x="85" y="200">0–5</text><text x="210" y="200">≤ 10</text><text x="335" y="200">10–25</text><text x="460" y="200">20–35</text><text x="585" y="200">35–70</text><text x="710" y="200">70+</text>
+  </g>
+  <text x="400" y="226" text-anchor="middle" font-size="16" fill="#0f172a">approx. gloss units at 60°</text>
+  <!-- arrows -->
+  <line x1="40" y1="270" x2="740" y2="270" stroke="#0f766e" stroke-width="4"/>
+  <polygon points="760,270 738,258 738,282" fill="#0f766e"/>
+  <text x="400" y="258" text-anchor="middle" font-size="17" font-weight="700" fill="#0f766e">Durability and washability increase →</text>
+  <line x1="60" y1="330" x2="760" y2="330" stroke="#f59e0b" stroke-width="4"/>
+  <polygon points="40,330 62,318 62,342" fill="#f59e0b"/>
+  <text x="400" y="318" text-anchor="middle" font-size="17" font-weight="700" fill="#b45309">← Hides wall flaws and touch-ups better</text>
+</svg>

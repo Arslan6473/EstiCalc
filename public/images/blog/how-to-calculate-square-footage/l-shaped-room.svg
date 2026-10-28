@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Two ways to measure an L-shaped room</title>
+  <desc id="d">Left: an L-shaped room split into a 20 by 12 foot rectangle (240 square feet) and a 10 by 8 foot rectangle (80 square feet), totalling 320 square feet. Right: the same room drawn inside a 20 by 20 foot bounding rectangle, minus a 10 by 8 foot missing corner, also 320 square feet.</desc>
+  <rect width="800" height="460" fill="#ffffff"/>
+  <text x="200" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Add method</text>
+  <text x="600" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Subtract method</text>
+  <!-- scale 14px/ft. Left L: top rect 20x12 at (60,70) => 280x168; bottom rect 10x8 => 140x112 at (60,238) -->
+  <rect x="60" y="70" width="280" height="168" fill="#ccfbf1" stroke="#0f766e" stroke-width="3"/>
+  <rect x="60" y="238" width="140" height="112" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+  <text x="200" y="150" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">A: 20 × 12</text>
+  <text x="200" y="174" text-anchor="middle" font-size="18" fill="#0f172a">= 240 sq ft</text>
+  <text x="130" y="290" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">B: 10 × 8</text>
+  <text x="130" y="314" text-anchor="middle" font-size="18" fill="#0f172a">= 80 sq ft</text>
+  <text x="200" y="62" text-anchor="middle" font-size="16" fill="#0f766e">20 ft</text>
+  <text x="352" y="158" font-size="16" fill="#0f766e">12 ft</text>
+  <text x="130" y="372" text-anchor="middle" font-size="16" fill="#0f766e">10 ft</text>
+  <text x="208" y="298" font-size="16" fill="#0f766e">8 ft</text>
+  <text x="200" y="420" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">240 + 80 = 320 sq ft</text>
+  <!-- Right: bounding 20x20 => 280x280 at (460,70) -->
+  <rect x="460" y="70" width="280" height="280" fill="#ccfbf1" stroke="#0f766e" stroke-width="3"/>
+  <rect x="600" y="238" width="140" height="112" fill="#ffffff" stroke="#f59e0b" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="600" y="62" text-anchor="middle" font-size="16" fill="#0f766e">20 ft</text>
+  <text x="430" y="214" font-size="16" fill="#0f766e">20 ft</text>
+  <text x="530" y="170" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">20 × 20</text>
+  <text x="530" y="194" text-anchor="middle" font-size="18" fill="#0f172a">= 400</text>
+  <text x="670" y="290" text-anchor="middle" font-size="16" font-weight="700" fill="#0f172a">missing</text>
+  <text x="670" y="312" text-anchor="middle" font-size="16" fill="#0f172a">10 × 8 = 80</text>
+  <text x="600" y="420" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">400 − 80 = 320 sq ft</text>
+</svg>

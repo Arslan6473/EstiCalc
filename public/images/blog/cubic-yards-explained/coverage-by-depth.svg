@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Area covered by one cubic yard at different depths</title>
+  <desc id="d">Horizontal bars: 1 inch deep covers 324 square feet, 2 inches 162, 3 inches 108, 4 inches 81 and 6 inches 54 square feet.</desc>
+  <rect width="800" height="380" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">1 cubic yard covers… (sq ft = 324 ÷ depth in inches)</text>
+  <!-- scale: 324 sq ft = 560px => 1.728 px per sq ft -->
+  <g font-size="18" fill="#0f172a">
+    <text x="110" y="92" text-anchor="end">1 in deep</text>
+    <rect x="125" y="72" width="560" height="30" fill="#0f766e"/>
+    <text x="695" y="94" font-weight="700">324</text>
+    <text x="110" y="152" text-anchor="end">2 in deep</text>
+    <rect x="125" y="132" width="280" height="30" fill="#0f766e"/>
+    <text x="415" y="154" font-weight="700">162</text>
+    <text x="110" y="212" text-anchor="end">3 in deep</text>
+    <rect x="125" y="192" width="187" height="30" fill="#f59e0b"/>
+    <text x="322" y="214" font-weight="700">108</text>
+    <text x="110" y="272" text-anchor="end">4 in deep</text>
+    <rect x="125" y="252" width="140" height="30" fill="#0f766e"/>
+    <text x="275" y="274" font-weight="700">81</text>
+    <text x="110" y="332" text-anchor="end">6 in deep</text>
+    <rect x="125" y="312" width="93" height="30" fill="#0f766e"/>
+    <text x="228" y="334" font-weight="700">54</text>
+  </g>
+  <line x1="125" y1="60" x2="125" y2="352" stroke="#e2e8f0" stroke-width="2"/>
+</svg>

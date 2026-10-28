@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Starting from a wall versus centring the layout</title>
+  <desc id="d">Left: 12 inch tiles started at one wall of a room 9 feet 4 inches wide leave a 4 inch sliver at the far wall. Right: the same room with the layout centred leaves 8 inch cut tiles at both walls.</desc>
+  <rect width="800" height="380" fill="#ffffff"/>
+  <text x="200" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Started at a wall</text>
+  <text x="600" y="36" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Centred layout</text>
+  <!-- room width 112 in; scale 2.8 px/in => 313.6px. Left room x=44..357 -->
+  <g stroke="#0f766e" stroke-width="1.5" fill="#f0fdfa">
+    <rect x="44" y="60" width="33.6" height="240"/>
+    <rect x="77.6" y="60" width="33.6" height="240"/>
+    <rect x="111.2" y="60" width="33.6" height="240"/>
+    <rect x="144.8" y="60" width="33.6" height="240"/>
+    <rect x="178.4" y="60" width="33.6" height="240"/>
+    <rect x="212" y="60" width="33.6" height="240"/>
+    <rect x="245.6" y="60" width="33.6" height="240"/>
+    <rect x="279.2" y="60" width="33.6" height="240"/>
+    <rect x="312.8" y="60" width="33.6" height="240"/>
+  </g>
+  <rect x="346.4" y="60" width="11.2" height="240" fill="#fde68a" stroke="#f59e0b" stroke-width="2"/>
+  <text x="352" y="326" text-anchor="middle" font-size="16" font-weight="700" fill="#b45309">4 in sliver</text>
+  <!-- right room x=444..757.6; 8in cut = 22.4 px -->
+  <rect x="444" y="60" width="22.4" height="240" fill="#fde68a" stroke="#f59e0b" stroke-width="2"/>
+  <g stroke="#0f766e" stroke-width="1.5" fill="#f0fdfa">
+    <rect x="466.4" y="60" width="33.6" height="240"/>
+    <rect x="500" y="60" width="33.6" height="240"/>
+    <rect x="533.6" y="60" width="33.6" height="240"/>
+    <rect x="567.2" y="60" width="33.6" height="240"/>
+    <rect x="600.8" y="60" width="33.6" height="240"/>
+    <rect x="634.4" y="60" width="33.6" height="240"/>
+    <rect x="668" y="60" width="33.6" height="240"/>
+    <rect x="701.6" y="60" width="33.6" height="240"/>
+  </g>
+  <rect x="735.2" y="60" width="22.4" height="240" fill="#fde68a" stroke="#f59e0b" stroke-width="2"/>
+  <line x1="600.8" y1="52" x2="600.8" y2="308" stroke="#0f172a" stroke-width="2" stroke-dasharray="6 4"/>
+  <text x="455" y="326" text-anchor="middle" font-size="16" font-weight="700" fill="#b45309">8 in</text>
+  <text x="746" y="326" text-anchor="middle" font-size="16" font-weight="700" fill="#b45309">8 in</text>
+  <text x="200" y="358" text-anchor="middle" font-size="17" fill="#0f172a">Room 9 ft 4 in wide, 12 in tiles</text>
+  <text x="600" y="358" text-anchor="middle" font-size="17" fill="#0f172a">Equal, wider cuts at both walls</text>
+</svg>

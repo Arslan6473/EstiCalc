@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b91c1c"/><stop offset="1" stop-color="#7f1d1d"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#fff" stroke-opacity=".07" stroke-width="2"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="960" cy="315" r="250" fill="#fff" fill-opacity=".08"/>
+  <g transform="translate(780 135)">
+    <path d="M50 170L180 70l130 100" fill="none" stroke="#ffffff" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M80 160v120h200V160" fill="#ffffff" opacity=".95"/>
+    <rect x="160" y="210" width="40" height="70" fill="#fbbf24"/>
+    <rect x="100" y="190" width="40" height="34" fill="#94a3b8"/><rect x="220" y="190" width="40" height="34" fill="#94a3b8"/>
+    <g fill="#fbbf24"><path d="M20 300v-50l10-12 10 12v50z"/><path d="M50 300v-50l10-12 10 12v50z"/><path d="M300 300v-50l10-12 10 12v50z"/><path d="M330 300v-50l10-12 10 12v50z"/></g>
+    <path d="M10 270h70M290 270h70" stroke="#fbbf24" stroke-width="6"/></g>
+  <rect x="72" y="70" width="261" height="44" rx="22" fill="#fff" fill-opacity=".15"/>
+  <text x="92" y="99" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="1.5">OUTDOOR &amp; ROOFING</text>
+  <text fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="800"><tspan x="72" y="233">Roofing Squares</tspan><tspan x="72" y="301">Explained: Squares,</tspan><tspan x="72" y="370">Pitch Multipliers and</tspan><tspan x="72" y="438">Bundles</tspan></text>
+  <text x="72" y="566" fill="#fff" fill-opacity=".85" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Esti<tspan fill="#fbbf24">Calc</tspan><tspan fill="#fff" fill-opacity=".7" font-weight="400"> · Home improvement guides</tspan></text>
+</svg>

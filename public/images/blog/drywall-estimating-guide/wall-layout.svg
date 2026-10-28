@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Drywall layout on a 14 foot wall</title>
+  <desc id="d">A wall 14 feet long and 8 feet high with studs every 16 inches. The top row is a 12 foot sheet plus a 2 foot piece on the right. The bottom row is a 2 foot 8 inch piece on the left plus a 12 foot sheet trimmed to 11 feet 4 inches, so the butt joints are staggered and both fall on studs. Each sheet is 4 feet tall.</desc>
+  <rect width="800" height="420" fill="#ffffff"/>
+  <!-- origin x=96, y=30 -->
+  <!-- studs every 16in = 1.333ft = 61.33px -->
+  <g stroke="#e2e8f0" stroke-width="3">
+    <line x1="96" y1="30" x2="96" y2="290"/>
+    <line x1="157" y1="30" x2="157" y2="290"/>
+    <line x1="219" y1="30" x2="219" y2="290"/>
+    <line x1="280" y1="30" x2="280" y2="290"/>
+    <line x1="341" y1="30" x2="341" y2="290"/>
+    <line x1="403" y1="30" x2="403" y2="290"/>
+    <line x1="464" y1="30" x2="464" y2="290"/>
+    <line x1="525" y1="30" x2="525" y2="290"/>
+    <line x1="587" y1="30" x2="587" y2="290"/>
+    <line x1="648" y1="30" x2="648" y2="290"/>
+    <line x1="709" y1="30" x2="709" y2="290"/>
+    <line x1="740" y1="30" x2="740" y2="290"/>
+  </g>
+  <!-- wall 14ft x 8ft: width 644 (46px/ft), height 260 (32.5px/ft vertical, compressed) -->
+  <!-- top row: 12ft sheet 552px + 2ft 92px -->
+  <rect x="96" y="30" width="552" height="130" fill="#f0fdfa" stroke="#0f766e" stroke-width="3"/>
+  <rect x="648" y="30" width="92" height="130" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+  <!-- bottom row: 2ft 8in + 11ft 4in -->
+  <rect x="96" y="160" width="123" height="130" fill="#fef3c7" stroke="#f59e0b" stroke-width="3"/>
+  <rect x="219" y="160" width="521" height="130" fill="#f0fdfa" stroke="#0f766e" stroke-width="3"/>
+  <text x="372" y="102" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">4 × 12 ft sheet</text>
+  <text x="694" y="102" text-anchor="middle" font-size="16" fill="#0f172a">2 ft</text>
+  <text x="157" y="232" text-anchor="middle" font-size="16" fill="#0f172a">2 ft 8 in</text>
+  <text x="480" y="232" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">12 ft sheet cut to 11 ft 4 in</text>
+  <!-- dims -->
+  <line x1="96" y1="314" x2="740" y2="314" stroke="#0f766e" stroke-width="2"/>
+  <line x1="96" y1="306" x2="96" y2="322" stroke="#0f766e" stroke-width="2"/>
+  <line x1="740" y1="306" x2="740" y2="322" stroke="#0f766e" stroke-width="2"/>
+  <text x="418" y="340" text-anchor="middle" font-size="18" font-weight="700" fill="#0f766e">14 ft wall</text>
+  <line x1="70" y1="30" x2="70" y2="290" stroke="#0f766e" stroke-width="2"/>
+  <line x1="62" y1="30" x2="78" y2="30" stroke="#0f766e" stroke-width="2"/>
+  <line x1="62" y1="290" x2="78" y2="290" stroke="#0f766e" stroke-width="2"/>
+  <text x="52" y="160" text-anchor="middle" font-size="18" font-weight="700" fill="#0f766e" transform="rotate(-90 52 160)">8 ft</text>
+  <g font-size="16" fill="#0f172a">
+    <text x="96" y="374">Butt joints are staggered between rows and every joint lands on a stud.</text>
+    <text x="96" y="400">Joints at 12 ft (top) and 2 ft 8 in (bottom). Studs 16 in on centre.</text>
+  </g>
+</svg>

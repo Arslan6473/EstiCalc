@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <title id="t">Unfolded wall area of a 12 by 14 foot room</title>
+  <desc id="d">Four walls of 14, 12, 14 and 12 feet laid side by side, each 8 feet tall, totalling 52 feet of perimeter and 416 square feet. One door of 20 square feet and two windows of 15 square feet each are subtracted for 366 square feet of paintable wall.</desc>
+  <rect width="800" height="420" fill="#ffffff"/>
+  <text x="400" y="36" text-anchor="middle" font-size="22" font-weight="700" fill="#0f172a">Wall area = perimeter × height</text>
+  <!-- walls: scale 13px per ft; total 52 ft = 676px; start x=62 -->
+  <g stroke="#0f172a" stroke-width="2" fill="#f0fdfa">
+    <rect x="62" y="90" width="182" height="208"/>
+    <rect x="244" y="90" width="156" height="208"/>
+    <rect x="400" y="90" width="182" height="208"/>
+    <rect x="582" y="90" width="156" height="208"/>
+  </g>
+  <!-- door on wall 2 -->
+  <rect x="300" y="194" width="39" height="104" fill="#ffffff" stroke="#f59e0b" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="319" y="252" text-anchor="middle" font-size="16" fill="#0f172a">door</text>
+  <!-- windows on walls 1 and 3 -->
+  <rect x="133" y="140" width="39" height="65" fill="#ffffff" stroke="#f59e0b" stroke-width="3" stroke-dasharray="6 4"/>
+  <rect x="471" y="140" width="39" height="65" fill="#ffffff" stroke="#f59e0b" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="152" y="230" text-anchor="middle" font-size="16" fill="#0f172a">window</text>
+  <text x="490" y="230" text-anchor="middle" font-size="16" fill="#0f172a">window</text>
+  <!-- width labels -->
+  <g font-size="18" fill="#0f766e" font-weight="700" text-anchor="middle">
+    <text x="153" y="80">14 ft</text>
+    <text x="322" y="80">12 ft</text>
+    <text x="491" y="80">14 ft</text>
+    <text x="660" y="80">12 ft</text>
+  </g>
+  <!-- height dimension -->
+  <line x1="40" y1="90" x2="40" y2="298" stroke="#0f766e" stroke-width="2"/>
+  <line x1="32" y1="90" x2="48" y2="90" stroke="#0f766e" stroke-width="2"/>
+  <line x1="32" y1="298" x2="48" y2="298" stroke="#0f766e" stroke-width="2"/>
+  <text x="26" y="200" font-size="18" fill="#0f766e" font-weight="700" text-anchor="middle" transform="rotate(-90 26 200)">8 ft</text>
+  <!-- perimeter dimension -->
+  <line x1="62" y1="318" x2="738" y2="318" stroke="#0f766e" stroke-width="2"/>
+  <line x1="62" y1="310" x2="62" y2="326" stroke="#0f766e" stroke-width="2"/>
+  <line x1="738" y1="310" x2="738" y2="326" stroke="#0f766e" stroke-width="2"/>
+  <text x="400" y="344" text-anchor="middle" font-size="18" fill="#0f766e" font-weight="700">Perimeter 52 ft</text>
+  <text x="400" y="380" text-anchor="middle" font-size="18" fill="#0f172a">52 ft × 8 ft = 416 sq ft − door 20 − windows 2 × 15 = <tspan font-weight="700">366 sq ft</tspan></text>
+  <text x="400" y="406" text-anchor="middle" font-size="16" fill="#0f172a">× 2 coats ÷ 350 sq ft/gal × 1.10 waste ≈ 2.3 gallons</text>
+</svg>
