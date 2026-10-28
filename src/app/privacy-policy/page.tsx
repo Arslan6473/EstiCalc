@@ -80,6 +80,11 @@ export default function PrivacyPolicyPage() {
         <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Google Analytics opt-out browser add-on</a>.
       </p>
 
+      <p>
+        We also use Vercel Web Analytics, provided by our hosting company, to count page views. It does not use cookies and
+        does not track you across other websites; visitors are counted in aggregate without identifying individuals.
+      </p>
+
       <h2>How we use information</h2>
       <ul>
         <li>To operate, maintain and improve the website and calculators.</li>
