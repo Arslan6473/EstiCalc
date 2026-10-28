@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { ChevronDown, Menu, Search } from "lucide-react";
+import { ChevronDown, Search } from "lucide-react";
 import { categories } from "@/lib/calculators/categories";
 import { CategoryIcon } from "@/components/CategoryIcon";
 import { Logo } from "./Logo";
+import { MobileMenu } from "./MobileMenu";
 
 const links = [
   { href: "/blog", label: "Guides" },
@@ -61,15 +62,7 @@ export function Header() {
           </Link>
         </nav>
 
-        <details className="group relative md:hidden">
-          <summary className="flex cursor-pointer list-none items-center rounded-lg p-2 text-slate-700 hover:bg-slate-100 [&::-webkit-details-marker]:hidden">
-            <Menu className="h-6 w-6" aria-hidden="true" />
-            <span className="sr-only">Open menu</span>
-          </summary>
-          <nav
-            aria-label="Mobile"
-            className="absolute right-0 top-12 max-h-[80vh] w-[min(88vw,22rem)] overflow-y-auto rounded-2xl border border-slate-200 bg-white p-3 shadow-xl"
-          >
+        <MobileMenu>
             <Link href="/calculators" className="block rounded-lg px-3 py-2 font-semibold text-slate-900 hover:bg-slate-100">
               All calculators
             </Link>
@@ -88,8 +81,7 @@ export function Header() {
                 <CategoryIcon name={c.icon} className="h-4 w-4 text-brand-700" /> {c.name}
               </Link>
             ))}
-          </nav>
-        </details>
+        </MobileMenu>
       </div>
     </header>
   );
